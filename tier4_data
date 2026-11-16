@@ -1,0 +1,49 @@
+### Data Classification
+
+| Information | Data Type | Explanation |
+|---|---|---|
+| Victor | String (Text) | Represents the customer's name as a sequence of characters. |
+| 30 | Integer | Represents the customer's age as a whole number. |
+| 150000.50 | Decimal number | Represents the customer's account balance, including a fractional part. |
+| Yes | Boolean | Represents a logical state indicating that the account is active. |
+
+### Why Does Each Piece of Information Need a Representation?
+
+**1. Customer name: Victor**
+
+The computer represents the name as text. The characters in the name must be encoded so that the computer can store and retrieve them correctly.
+
+**2. Age: 30**
+
+The computer represents the age as an integer because it is a whole number. This allows the system to perform numerical operations and comparisons.
+
+**3. Account balance: 150000.50**
+
+The computer represents the account balance using a numerical representation capable of handling fractional values. For financial systems, an appropriate decimal representation or integer representation of the smallest currency unit is generally preferable to ordinary binary floating-point arithmetic.
+
+**4. Account active: Yes**
+
+The computer represents the account status as a Boolean value, such as `true` or `false`. This allows the program to determine whether the account is active.
+
+### How Is the Information Represented Digitally?
+
+The information passes through several conceptual stages:
+
+Real-world information
+↓
+Data type and representation
+↓
+Encoding into digital form
+↓
+Binary data
+↓
+Storage and processing by the computer
+
+For example, the name "Victor" can be encoded using UTF-8. Each character is represented by one or more bytes.
+
+The age can be stored using an integer representation, while the account balance can be stored using a suitable numeric format.
+
+The account status can be represented using a Boolean value or another defined encoding.
+
+Ultimately, the computer stores and processes these representations as binary data.
+

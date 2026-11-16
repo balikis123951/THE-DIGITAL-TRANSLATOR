@@ -1,0 +1,70 @@
+### Operation 1: Addition
+
+**Input:**
+- First number: 20
+- Second number: 5
+
+**Processing:**
+- Add the two numbers together.
+- Calculation: 20 + 5
+
+**Output:**
+- Result: 25
+
+**Process:** Input (20, 5) → Addition (20 + 5) → Output (25)
+
+### Operation 2: Subtraction
+
+**Input:**
+- First number: 20
+- Second number: 5
+
+**Processing:**
+- Subtract the second number from the first number.
+- Calculation: 20 − 5
+
+**Output:**
+- Result: 15
+
+**Process:** Input (20, 5) → Subtraction (20 − 5) → Output (15)
+
+### Operation 3: Multiplication
+
+**Input:**
+- First number: 20
+- Second number: 5
+
+**Processing:**
+- Multiply the first number by the second number.
+- Calculation: 20 × 5
+
+**Output:**
+- Result: 100
+
+**Process:** Input (20, 5) → Multiplication (20 × 5) → Output (100)
+
+### Operation 4: Division
+
+**Input:**
+- First number: 20
+- Second number: 5
+
+**Processing:**
+- Divide the first number by the second number.
+- Calculation: 20 ÷ 5
+
+**Output:**
+- Result: 4
+
+**Process:** Input (20, 5) → Division (20 ÷ 5) → Output (4)
+
+### Summary Table
+
+| Operation | Input | Processing | Expected Output |
+|---|---|---|---:|
+| Addition | 20, 5 | 20 + 5 | 25 |
+| Subtraction | 20, 5 | 20 − 5 | 15 |
+| Multiplication | 20, 5 | 20 × 5 | 100 |
+| Division | 20, 5 | 20 ÷ 5 | 4 |
+
+**Conclusion:** The calculator receives two numbers as input, processes them using the selected mathematical operation, and produces the appropriate result as output.

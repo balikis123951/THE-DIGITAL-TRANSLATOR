@@ -1,0 +1,15 @@
+In my understanding, a computer does not understand things in the same way humans do. Humans can understand situations using experience, common sense, and the information around them, but a computer needs information to be provided in a form it can process and instructions that tell it what to do.
+
+For example, if I tell a computer to make me breakfast, it cannot automatically know what food I want, how much I need, or how I want it prepared. I must provide clear instructions so that it can follow the correct steps without guessing.
+
+The same idea applies to withdrawing money from an ATM. The ATM follows a sequence of instructions to verify the card, check the PIN, confirm the amount, and dispense money. If something goes wrong, such as an incorrect PIN or insufficient balance, the system must follow specific rules to handle the problem.
+
+In a calculator, the computer receives numbers as input, processes them using mathematical operations, and produces an answer as output. However, if I try to divide a number by zero, the program must recognize that the operation is invalid and display an appropriate error message.
+
+When handling customer information, the computer must represent different types of data correctly. For example, a customer's name is text, their age is a number, their account balance is a numerical value, and their account status can be represented as true or false. If the information is stored or interpreted incorrectly, the system may produce wrong results.
+
+In an online store, the computer processes a customer's order by following instructions, checking product availability, calculating the total cost, recording the order information, and providing a response to the customer.
+
+From these examples, I have learned that computers depend on data, instructions, and logical steps to perform tasks. To make a computer solve a real-world problem, we must first understand what we want to achieve, identify the information needed, organize the instructions, and determine how the computer should process the information and produce the correct result.
+
+This is what I understand as the main idea behind THE DIGITAL TRANSLATOR: taking what a human wants to communicate and transforming it into clear information and instructions that a computer can process and use to achieve the intended result.

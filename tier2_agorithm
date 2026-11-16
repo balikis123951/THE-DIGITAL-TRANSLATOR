@@ -1,0 +1,94 @@
+### Goal: Withdraw Money from an ATM
+
+**Step 1: Start the transaction.**
+- Approach the ATM.
+- Check that the ATM is available for use.
+- Insert the bank card into the card reader.
+
+**Step 2: Verify the card.**
+- The ATM reads the card information.
+- Check whether the card is readable, valid, and accepted by the ATM.
+- If the card cannot be read, display an error message and ask the user to remove the card or try again.
+- If the card is invalid or blocked, reject the transaction and return the card when safe and possible.
+- If the card is valid, continue to Step 3.
+
+**Step 3: Request and validate the PIN.**
+- Display a request for the user's Personal Identification Number (PIN).
+- Allow the user to enter the PIN privately.
+- Send the PIN for secure verification by the authorized banking system.
+- If the PIN is correct, continue to Step 4.
+- If the PIN is incorrect, display an error message and allow another attempt within the bank's permitted limit.
+- If the maximum number of attempts is reached, stop the transaction and follow the bank's security procedure.
+
+**Step 4: Select the withdrawal option.**
+- Display the available banking services.
+- Ask the user to select "Cash Withdrawal."
+- Display the available account types, such as savings or current.
+- Ask the user to select the account from which money should be withdrawn.
+
+**Step 5: Enter the withdrawal amount.**
+- Ask the user to enter the desired amount.
+- Check that the amount is greater than zero.
+- Check that the amount meets the ATM's permitted withdrawal increments and limits.
+- If the amount is invalid, display an error message and request another amount.
+- If the amount is valid, continue to Step 6.
+
+**Step 6: Check the account balance and withdrawal limits.**
+- Contact the banking system securely.
+- Verify that the account is active and permitted to make withdrawals.
+- Check the available balance.
+- Check applicable daily withdrawal limits and transaction limits.
+- If the requested amount exceeds the available balance, inform the user and allow the user to enter a smaller amount or cancel the transaction.
+- If the withdrawal exceeds a permitted limit, explain the problem and request a valid amount.
+- If the amount is permitted, continue to Step 7.
+
+**Step 7: Check ATM cash availability.**
+- Check whether the ATM has enough suitable banknotes to dispense the requested amount.
+- If sufficient cash is unavailable, inform the user and request a smaller amount or allow the user to cancel.
+- If sufficient cash is available, continue to Step 8.
+
+**Step 8: Authorize the transaction.**
+- Request authorization from the banking system.
+- Ensure the transaction is approved before dispensing cash.
+- If authorization fails, do not dispense cash. Display an appropriate message and follow the bank's transaction-handling procedure.
+- If authorization succeeds, continue to Step 9.
+
+**Step 9: Dispense the cash.**
+- Command the ATM to dispense the approved amount.
+- Verify, as far as the ATM's sensors permit, that the cash was dispensed successfully.
+- If the cash cannot be dispensed or only part of it is dispensed, stop the transaction and initiate the appropriate recovery or reconciliation procedure.
+- Do not assume that the customer received the full amount merely because the ATM attempted to dispense it.
+
+**Step 10: Confirm and record the transaction.**
+- Ensure the banking system records the actual outcome of the withdrawal.
+- Update the account balance according to the confirmed transaction result.
+- If the cash was not dispensed, ensure the transaction is reversed or otherwise corrected according to the bank's procedures.
+- If the outcome is uncertain, flag the transaction for reconciliation rather than recording an unverified result as successful.
+- Display the transaction result to the user.
+
+**Step 11: Offer a receipt.**
+- Ask whether the user wants a receipt, if this option is available.
+- If the user selects "Yes," print or provide the receipt.
+- If the user selects "No," skip the receipt.
+
+**Step 12: Return the card.**
+- Return the bank card safely.
+- Prompt the user to remove it.
+- Where supported, wait for confirmation that the card has been removed.
+
+**Step 13: Finish the transaction.**
+- Display a transaction-completion message if the withdrawal succeeded.
+- If the transaction failed, display an appropriate failure message.
+- Ensure the ATM returns to its initial screen after the transaction has ended.
+- End the process.
+
+### Conditions for Successful Completion
+
+The withdrawal is successful only when:
+1. The card and PIN have been validated.
+2. The requested amount has been authorized.
+3. The ATM has successfully dispensed the approved cash.
+4. The banking system has recorded the transaction outcome correctly.
+5. The user has been informed of the result.
+
+If any required operation fails, the ATM must follow the appropriate recovery procedure instead of treating the withdrawal as successful.
